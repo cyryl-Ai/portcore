@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\User\.node\corepack\yarn\1.22.19\bin\yarn.js add install -D tailwindcss@npm:@tailwindcss/postcss/postcss7-compat postcss@7 autoprefixer@9
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3;C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3\Scripts";C:\Users\User\AppData\Local\Microsoft\WindowsApps\Python310;C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3\;C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3\Scripts\;C:\Program Files\heroku\bin;"C:\Users\User\AppData\Local\Programs\Python\Python38;C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts\";c:\users\user\appdata\local\pip\cache\wheels\24\47\0a\6bdc915164c9c29e3a7d93ea1ef469c1079e2f427bce820d43\;C:\Program Files\nodejs\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Android Studio;C:\Users\User\Desktop\usb_driver;C:\Program Files\Git\cmd;C:\Users\User\development\sdks\flutter\bin;C:\xampp2;C:\Users\User\AppData\Local\Android\Sdk\emulator;C:\Program Files\dart-sass;C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python38\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3\;C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3\Scripts\;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;"C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3;C:\Users\User\AppData\Local\Microsoft\WindowsApps\python3\Scripts";C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts\;c:\users\user\appdata\local\pip\cache\wheels\24\47\0a\6bdc915164c9c29e3a7d93ea1ef469c1079e2f427bce820d43\;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Android Studio;C:\Users\User\development\sdks\flutter\bin;C:\xampp2;C:\Users\User\AppData\Local\Android\Sdk\emulator;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@tailwindcss%2fpostcss/postcss7-compat: Request "https://registry.yarnpkg.com/@tailwindcss%2fpostcss/postcss7-compat" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\User\.node\corepack\yarn\1.22.19\lib\cli.js:66154:18)
+      at Request.self.callback (C:\Users\User\.node\corepack\yarn\1.22.19\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\User\.node\corepack\yarn\1.22.19\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\User\.node\corepack\yarn\1.22.19\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "autoprefixer": "^9.8.8",
+      "postcss": "^7.0.39",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
